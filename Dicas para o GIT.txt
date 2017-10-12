@@ -19,5 +19,6 @@ git status
 git config user.name "Eduardo"
 git config user.email "eduoududu@yahoo.com.br"
 
-# Confirmar mudança
-git commit -m "Motivo"
+# Confirmar mudança, incluindo todos os arquivos modificados ou removidos.
+  Não adiciona novos arquivos.
+git commit -a -m "Motivo"
