@@ -21,4 +21,3 @@ git config user.email "eduoududu@yahoo.com.br"
 
 # Confirmar mudança
 git commit -m "Motivo"
-
