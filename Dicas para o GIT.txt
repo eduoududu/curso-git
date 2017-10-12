@@ -33,5 +33,5 @@ git whatchanged
 git whatchanged -p
 
 # Enviar repositório local para repositório remoto no GitHub
-git remote origin http://github.com/.....git
+git remote origin http://github.com/<sua_url>.git
 git push origin master
