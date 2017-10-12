@@ -1,0 +1,17 @@
+Dicas GIT
+
+# Exibir marcas, tags, com as quais indicam versões.
+git tag
+
+# Exibir diferenças
+git diff <v1> <v2>
+
+# Informar ao git para começar a controlar uma pasta.
+git init
+
+# Listar arquivos que o git está controlando
+git ls-files
+
+# Exibir status
+git status
+
