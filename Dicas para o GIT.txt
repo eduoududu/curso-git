@@ -22,3 +22,16 @@ git config user.email "eduoududu@yahoo.com.br"
 # Confirmar mudança, incluindo todos os arquivos modificados ou removidos.
   Não adiciona novos arquivos.
 git commit -a -m "Motivo"
+
+# Listar os commits realizados
+git log
+
+# Listar o que foi alterado
+git whatchanged
+
+# Listar o que foi alterado de forma detalhada
+git whatchanged -p
+
+# Enviar repositório local para repositório remoto no GitHub
+git remote origin http://github.com/.....git
+git push origin master
