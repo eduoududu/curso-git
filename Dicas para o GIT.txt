@@ -15,3 +15,10 @@ git ls-files
 # Exibir status
 git status
 
+# Definir autor apenas para o Projeto em questão
+git config user.name "Eduardo"
+git config user.email "eduoududu@yahoo.com.br"
+
+# Confirmar mudança
+git commit -m "Motivo"
+
