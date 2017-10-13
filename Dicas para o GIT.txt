@@ -36,5 +36,21 @@ git whatchanged -p
 git remote origin http://github.com/<sua_url>.git
 git push -u origin master
 
-# Criar branch local fazendo associação com branch remota
+# Listar todas as branchs locais
+git branch
+
+# Listar todas as branchs locais e remotas
+git branch -a
+
+# Criar branch local denominada design
+git branch design
+
+# Criar branch local design fazendo associação com branch remota design
 git branch -t design origin/design
+
+# Alternar para branch design
+git checkout design
+
+# Alternar para branch design, caso não exista ela será criada.
+git checkout -b design
+
