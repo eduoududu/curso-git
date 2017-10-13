@@ -33,8 +33,17 @@ git whatchanged
 git whatchanged -p
 
 # Enviar repositório local para repositório remoto no GitHub
-git remote origin http://github.com/<sua_url>.git
+git remote add origin http://github.com/<sua_url>.git
 git push -u origin master
+
+# Baixar o repositório remoto para local.
+git clone http://github.com/<sua_url>.git
+
+# Baixar novidades do repositório remoto.
+git pull
+
+# Enviar novidades do repositório remoto.
+git push
 
 # Listar todas as branchs locais
 git branch
@@ -53,4 +62,3 @@ git checkout design
 
 # Alternar para branch design, caso não exista ela será criada.
 git checkout -b design
-
