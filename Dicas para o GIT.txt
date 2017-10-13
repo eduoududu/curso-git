@@ -1,4 +1,5 @@
 Dicas GIT
+Últmia alteração: 13/10/2017 10:41h
 
 # Exibir marcas, tags, com as quais indicam versões.
 git tag
